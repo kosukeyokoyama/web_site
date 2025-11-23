@@ -1,0 +1,389 @@
+
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title></title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans JP",sans-serif;margin:20px;background:#f6f8fb;color:#111}
+  h1{font-size:1.05rem;margin-bottom:12px}
+  details.song{margin-bottom:12px;border:1px solid #e1e4e8;border-radius:8px;background:#fff;padding:8px;max-width:900px}
+  summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:6px 8px;border-radius:6px;outline:none}
+  summary::-webkit-details-marker{display:none}
+  .title{font-weight:700}
+  .chev{transition:transform .18s ease}
+  details[open] .chev{transform:rotate(90deg)}
+  .player-wrap{margin-top:8px;aspect-ratio:16/9;width:100%}
+  iframe{width:100%;height:100%;border:0;border-radius:6px}
+  .warn{color:#b00;font-size:.95rem}
+</style>
+</head>
+<body>
+<h1></h1>
+
+<details class="song" data-video="https://youtu.be/P1Hm6hjSeWs?si=v6z8MXtxvCdDD2y-">
+  <summary>
+    <span class="title">0014_大空</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/d1YygN7jG7E?si=_VDjUP7pVOR78FSE">
+  <summary>
+    <span class="title">0074_四季刻歌</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/3BZUyWkKlZU?si=B3-Bu_aMligElPws">
+  <summary>
+    <span class="title">0147_you -卒業-</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/BZAlwYJH63Y?si=Dcc2gYg7iGDINZ8q">
+  <summary>
+    <span class="title">0219_サクラカゼ</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/i5UALHaypaw?si=Q8SoBxSKMZjJEY3K">
+  <summary>
+    <span class="title">0220_祈りの彼方</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/GVpTz37BHTI?si=ZbBrmtuSH-mzfQ1E">
+  <summary>
+    <span class="title">0241_ハナタバ</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/pZrroWkSJaw?si=y84Lv142Nae7Uo2i">
+  <summary>
+    <span class="title">0302_UNDEAD</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/woFU8DGg1UI?si=0iyEIZ5aZyR7D7aM">
+  <summary>
+    <span class="title">0305_Bye bye YESTERDAY</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/6DrKJzuH7M8?si=G2J6-EQ8NNZoCYHz">
+  <summary>
+    <span class="title">0306_QUESTION</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/PQjAwlGEiMQ?si=3v9_Wu2LZM-FH_0o">
+  <summary>
+    <span class="title">0317_ツギハギスタッカート</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/yLMTNdrT6uM?si=lWz3OMXf4I0zEhI1">
+  <summary>
+    <span class="title">0330_Blessing</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/P7cQs-qbqZI?si=fzEfJOTpIXeQf58l">
+  <summary>
+    <span class="title">0336_宴は夕刻、静かに始まる</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/FkiLC9zWD1s?si=XA0lhfc-wIUs6bX0">
+  <summary>
+    <span class="title">0337_ワンルール・ゲームチェンジャー</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/vmbw2ps3roc?si=fY98mjj4yXOanWVz">
+  <summary>
+    <span class="title">0363_夜に駆ける（ピアノ）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/vQTx0i6iNVc?si=f6bKQFK2KnB1R_wn">
+  <summary>
+    <span class="title">0367_夜に駆ける（莉犬）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/pO1_9kuym1w?si=1m5ddsZsfti6-ySR">
+  <summary>
+    <span class="title">0380_Overdose</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/lTQ5IpSDDz4?si=vFCk3zHuNid95B6c">
+  <summary>
+    <span class="title">0384_天ノ弱（莉犬）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/_md5xE1yquo?si=hS1Hqnjv9NZL6Kv7">
+  <summary>
+    <span class="title">0392_天ノ弱（Coe.）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/ojZaWERcbaI?si=kFWOJNRdYrg5SoJa">
+  <summary>
+    <span class="title">0399_もうどうなってもいいや</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/I9yqp3axEfc?si=ui0fxbtUR8bBJIIA">
+  <summary>
+    <span class="title">0412_炉心融解（りする）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/dNGgS_YG0XI?si=7D96ip3DL2uOt_bh">
+  <summary>
+    <span class="title">0415_夜明けと蛍（Coe.）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/yzEsCj8Qqf4?si=GdlpO5ITbgRLaNui">
+  <summary>
+    <span class="title">0417_命に嫌われている（Coe.）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/VLPHUgLDnPY?si=mGLET170ytj3Y49N">
+  <summary>
+    <span class="title">0427_ラグトレイン（ピアノ）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/XGYpAsYYDrQ?si=XeW8Drpk_QM7DgtV">
+  <summary>
+    <span class="title">0435_From the invisible memories</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/9xUEKlqZh8o?si=VOJ1jxVV77bOrNQr">
+  <summary>
+    <span class="title">0438_幻想の跡～あの夏の日～</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/dnAw9AoA_cw?si=adSWxFzd2L5QevI7">
+  <summary>
+    <span class="title">0442_KING</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/BmcA8XWKvYg?si=K9O1R_OpEprnETtw">
+  <summary>
+    <span class="title">0443_ヒバナ</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/sYW4LfHRRdA?si=h9ahTQvPstny89SO">
+  <summary>
+    <span class="title">0444_フィクサー</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/l2qfPf2948E?si=0p9jNPkzvco-DAzE">
+  <summary>
+    <span class="title">0445_ウミユリ海底譚（Itose）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/JwBeTLKGqjs?si=JWRggNV1pVapT9gd">
+  <summary>
+    <span class="title">0446_サマータイムレコード（Itose）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/WaS4mo0wjJk?si=RVFKL3WxGbx4FHVv">
+  <summary>
+    <span class="title">0447_回る空うさぎ</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/sJ2vzFOre9w?si=I1nQ6QECxomc-nzL">
+  <summary>
+    <span class="title">0449_ラグトレイン（るも。）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/gy1MjJB0iz0?si=H7fybRylUOsQGiKp">
+  <summary>
+    <span class="title">0450_晴る</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/MlBVKFfESik?si=EvPxQ8TriTrCkmRP">
+  <summary>
+    <span class="title">0451_君の神様になりたい。</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/2ftt_4u3jdI?si=yVZT1htd6TkJIpAK">
+  <summary>
+    <span class="title">0453_命に嫌われている。（Itose）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/_Gqe6s61cuA?si=Oe9_mqwHrjejoOkh">
+  <summary>
+    <span class="title">0454_ツギハギスタッカート（白波瀬ソル）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/u5Wh78EcMq8?si=DDjNdPnsDIHVMJMn">
+  <summary>
+    <span class="title">0455_残灯花火</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/hVGZtc-NiPA?si=Y7sEZjhf_9ghz_Eb">
+  <summary>
+    <span class="title">0456_誰かの心臓になれたなら（Itose）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/eXazZgYOhzU?si=jQ_Gf95h4QSLztUC">
+  <summary>
+    <span class="title">0457_夜明けと蛍（Relu）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/AI1naMa0xr4?si=ZZl1aXJRbqBerc9e">
+  <summary>
+    <span class="title">0458_悪魔の子（ピアノ）</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/749IdtvE9M0?si=79hX5NnDJAhTMPaB">
+  <summary>
+    <span class="title">0459_トワイライト急行</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<details class="song" data-video="https://youtu.be/lrerZubOJsc?si=xBRn9ociujmMOYnb">
+  <summary>
+    <span class="title">0461_忘れじの言の葉</span>
+    <span class="chev">▶</span>
+  </summary>
+  <div class="player-wrap"></div>
+</details>
+<script>
+(function(){
+  function extractID(input){
+    if(!input) return '';
+    input = input.trim();
+    // 既に11文字のIDならそれを返す
+    const idLike = input.match(/^[a-zA-Z0-9_-]{11}$/);
+    if(idLike) return idLike[0];
+    // よくあるURLパターン
+    const patterns = [
+      /(?:youtube\.com\/.*v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/,
+      /v=([a-zA-Z0-9_-]{11})/,
+      /embed\/([a-zA-Z0-9_-]{11})/
+    ];
+    for(const p of patterns){
+      const m = input.match(p);
+      if(m && m[1]) return m[1];
+    }
+    // URLオブジェクトから探す（安全対策）
+    try{
+      const url = new URL(input);
+      const v = url.searchParams.get('v');
+      if(v && v.length===11) return v;
+    }catch(e){}
+    return '';
+  }
+
+  function createIframe(id){
+    const iframe = document.createElement('iframe');
+    iframe.loading = 'lazy';
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?rel=0&modestbranding=1';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allowFullscreen = true;
+    return iframe;
+  }
+
+  const detailsList = document.querySelectorAll('details.song');
+  detailsList.forEach(d=>{
+    d.addEventListener('toggle', ()=>{
+      const wrap = d.querySelector('.player-wrap');
+      if(d.open){
+        // 他の open を閉じて再生停止（同時再生を避ける）
+        detailsList.forEach(other=>{
+          if(other !== d){
+            other.removeAttribute('open');
+            const f = other.querySelector('iframe');
+            if(f) f.remove();
+          }
+        });
+        // iframe がなければ生成（lazy-load）
+        if(!wrap.querySelector('iframe')){
+          const vid = d.dataset.video || '';
+          const id = extractID(vid);
+          if(id){
+            wrap.appendChild(createIframe(id));
+          } else {
+            wrap.innerHTML = '<div class="warn">※ 無効なYouTubeリンクまたは動画IDです。</div>';
+          }
+        }
+      } else {
+        // 閉じたら iframe を削除（再生停止）
+        const f = wrap.querySelector('iframe');
+        if(f) f.remove();
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
